@@ -1,19 +1,21 @@
 #include <stdio.h>
 
 int main(void) {
-    // º¹ÇÕ ´ëÀÔ ¿¬»ê
-    int x = 10;
-    int y = 20;
+    char ch;
+    int num;
+    double fnum;
 
-    x += 10;        // x = x + 10;
-    y -= 10;        // y = y - 10;
-    printf("x : %d\n", x);
-    printf("y : %d\n", y);
+    // &       : ì£¼ì†Œì—°ì‚°ì
+    // &ë³€ìˆ˜    : ë³€ìˆ˜ì˜ ì£¼ì†Œê°’ì„ ë°˜í™˜
+    printf("ë¬¸ì : ");
+    scanf("%c", &ch);
 
-    x *= 2;         // x = x * 2;
-    y /= 2;         // y = y / 2;
-    printf("x : %d\n", x);
-    printf("y : %d\n", y);
+    printf("ì •ìˆ˜ : ");
+    scanf("%d", &num);
 
+    printf("ì‹¤ìˆ˜ : ");
+    scanf("%lf", &fnum);
+
+    printf("%c %d %lf \n", ch, num, fnum);
     return 0;
 }
