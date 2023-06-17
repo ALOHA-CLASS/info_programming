@@ -4,10 +4,10 @@ int main(void) {
     int age;
     char name[10];          
 
-    printf("ë‚˜ì´ì™€ ì´ë¦„ì„ ì…ë ¥ : ");
-    // ì…ë ¥í•¨ìˆ˜
+    printf("³ªÀÌ¿Í ÀÌ¸§À» ÀÔ·Â : ");
+    // ÀÔ·ÂÇÔ¼ö
     scanf("%d %s", &age, name);
-    printf("ë‚˜ì´ :  %d\n", age );
-    printf("ì´ë¦„ :  %s\n", name );
+    printf("³ªÀÌ :  %d\n", age );
+    printf("ÀÌ¸§ :  %s\n", name );
     return 0;   
 }

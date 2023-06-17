@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main(void) {
-    // for ë¬¸ì—ì„œì˜ ë¬´í•œë°˜ë³µ
+    // for ¹®¿¡¼­ÀÇ ¹«ÇÑ¹İº¹
     int n = 1;
 
     for( ; ; ) {
         printf(" n : %d\n", n);
         
-        // ì¢…ë£Œì¡°ê±´
+        // Á¾·áÁ¶°Ç
         if( n == 30 )
             break;
 

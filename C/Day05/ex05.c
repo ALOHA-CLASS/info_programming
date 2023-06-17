@@ -4,23 +4,23 @@ int main(void) {
     int num1 = 20, num2 = 10;
     int result;
 
-    // AND ì—°ì‚° (&&)
+    // AND ¿¬»ê (&&)
     result = 1 && 1;
     printf("result 1 : %d\n", result);
 
-    // í•œ ì¤„ ë³µì‚¬ : Alt + Shift + â†“
-    // í•œ ì¤„ ì‚­ì œ : Ctrl + Shift + K
+    // ÇÑ ÁÙ º¹»ç : Alt + Shift + ¡é
+    // ÇÑ ÁÙ »èÁ¦ : Ctrl + Shift + K
     result = num1 == 20 && num2 == 30;
     printf("result 2 : %d\n", result);
 
-    // OR ì—°ì‚° (||) - shift + \(ì›í™”ê¸°í˜¸)
+    // OR ¿¬»ê (||) - shift + \(¿øÈ­±âÈ£)
     result = 0 || 1;
     printf("result 3 : %d\n", result);
 
     result = 0 || 0;
     printf("result 4 : %d\n", result);
 
-    // NOT ì—°ì‚°(!)
+    // NOT ¿¬»ê(!)
     printf("result 5 : %d\n", !0);
     printf("result 6 : %d\n", !1);
     

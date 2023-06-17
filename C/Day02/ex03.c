@@ -2,17 +2,17 @@
 
 int main(void) {
   
-    // ì‹¤ìˆ˜í˜•
+    // ½Ç¼öÇü
     float ft = 1.23456789;
     double db = 10.123456789;
 
-    printf("float í˜• ì‹¤ìˆ˜ê°’ : %.10f \n", ft);
-    printf("double í˜• ì‹¤ìˆ˜ê°’ : %.10f \n", db);
+    printf("float Çü ½Ç¼ö°ª : %.10f \n", ft);
+    printf("double Çü ½Ç¼ö°ª : %.10f \n", db);
 
-    // ì»´í“¨í„°ì—ì„œëŠ” ì‹¤ìˆ˜ í‘œí˜„ì˜ ì˜¤ì°¨ê°€ ì¡´ìž¬í•œë‹¤.
-    // ìœ íš¨ìˆ«ìž ë²”ìœ„ ì•ˆì—ì„œ ìž…ë ¥í•´ì•¼í•œë‹¤.
-    // float ì‹¤ìˆ˜í˜•ì˜ ìœ íš¨ìˆ«ìž          : ì†Œìˆ˜ì  ì•„ëž˜ 7ìžë¦¬ ê¹Œì§€
-    // double ì‹¤ìˆ˜í˜•ì˜ ìœ íš¨ìˆ«ìž         : ì†Œìˆ˜ì  ì•„ëž˜ 15ìžë¦¬ ê¹Œì§€
+    // ÄÄÇ»ÅÍ¿¡¼­´Â ½Ç¼ö Ç¥ÇöÀÇ ¿ÀÂ÷°¡ Á¸ÀçÇÑ´Ù.
+    // À¯È¿¼ýÀÚ ¹üÀ§ ¾È¿¡¼­ ÀÔ·ÂÇØ¾ßÇÑ´Ù.
+    // float ½Ç¼öÇüÀÇ À¯È¿¼ýÀÚ          : ¼Ò¼öÁ¡ ¾Æ·¡ 7ÀÚ¸® ±îÁö
+    // double ½Ç¼öÇüÀÇ À¯È¿¼ýÀÚ         : ¼Ò¼öÁ¡ ¾Æ·¡ 15ÀÚ¸® ±îÁö
     
     return 0;
 }

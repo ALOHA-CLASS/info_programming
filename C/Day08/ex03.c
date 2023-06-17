@@ -1,30 +1,30 @@
 #include <stdio.h>
 
 int main(void) {
-    // ë¬¸ìžì—´ ë³€ìˆ˜ í‘œí˜„
-    // - ë°°ì—´ì˜ ë¬¸ìžì—´ ì €ìž¥
-    // '' (ìž‘ì€ ë”°ì˜´í‘œ)     : í•œ ë¬¸ìž
-    // "" (í° ë”°ì˜´í‘œ)       : ë¬¸ìžì—´ (ì—¬ëŸ¬ ë¬¸ìž)
+    // ¹®ÀÚ¿­ º¯¼ö Ç¥Çö
+    // - ¹è¿­ÀÇ ¹®ÀÚ¿­ ÀúÀå
+    // '' (ÀÛÀº µû¿ÈÇ¥)     : ÇÑ ¹®ÀÚ
+    // "" (Å« µû¿ÈÇ¥)       : ¹®ÀÚ¿­ (¿©·¯ ¹®ÀÚ)
     char greet[] = "Hello, C~!";
-    printf("ë¬¸ìžì—´ì˜ ë‚´ìš© : %s\n", greet);
+    printf("¹®ÀÚ¿­ÀÇ ³»¿ë : %s\n", greet);
 
-    // sizeof() í•¨ìˆ˜
-    // : í•´ë‹¹ ë³€ìˆ˜ì˜ byte ë‹¨ìœ„ì˜ í¬ê¸°ë¥¼ ë°˜í™˜
-    printf("ë¬¸ìžì—´ì˜ í¬ê¸° : %d\n", sizeof(greet));
+    // sizeof() ÇÔ¼ö
+    // : ÇØ´ç º¯¼öÀÇ byte ´ÜÀ§ÀÇ Å©±â¸¦ ¹ÝÈ¯
+    printf("¹®ÀÚ¿­ÀÇ Å©±â : %d\n", sizeof(greet));
 
-    // ë„ ë¬¸ìž
-    // \0       : ë¬¸ìžì—´ ë§ˆì§€ë§‰ì— ì‚½ìž…ë˜ëŠ” ë¬¸ìž
-    // ì˜ë¯¸     : ë°ì´í„° ì—†ìŒ, ë¬¸ìžì—´ì˜ ëì„ êµ¬ë¶„
+    // ³Î ¹®ÀÚ
+    // \0       : ¹®ÀÚ¿­ ¸¶Áö¸·¿¡ »ðÀÔµÇ´Â ¹®ÀÚ
+    // ÀÇ¹Ì     : µ¥ÀÌÅÍ ¾øÀ½, ¹®ÀÚ¿­ÀÇ ³¡À» ±¸ºÐ
     // [H][e][l][l][o][,][C][~][!][\0]
 
     char mind[30] = "I Love Programming!";
     printf("%s\n", mind);
 
-    // 'P' ë¥¼ '\0' ìœ¼ë¡œ ëŒ€ì²´
-    mind[7] = '\0';             // 8ë²ˆì§¸ ìš”ì†Œì— \0 ì¶”ê°€
+    // 'P' ¸¦ '\0' À¸·Î ´ëÃ¼
+    mind[7] = '\0';             // 8¹øÂ° ¿ä¼Ò¿¡ \0 Ãß°¡
     printf("%s\n", mind);
 
-    mind[1] = '\0';             // 2ë²ˆì§¸ ìš”ì†Œì— \0 ì¶”ê°€
+    mind[1] = '\0';             // 2¹øÂ° ¿ä¼Ò¿¡ \0 Ãß°¡
     printf("%s\n", mind);
 
     return 0;

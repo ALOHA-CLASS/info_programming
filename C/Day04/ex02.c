@@ -5,15 +5,15 @@ int main(void) {
     int num;
     double fnum;
 
-    // &       : ì£¼ì†Œì—°ì‚°ì
-    // &ë³€ìˆ˜    : ë³€ìˆ˜ì˜ ì£¼ì†Œê°’ì„ ë°˜í™˜
-    printf("ë¬¸ì : ");
+    // &       : ÁÖ¼Ò¿¬»êÀÚ
+    // &º¯¼ö    : º¯¼öÀÇ ÁÖ¼Ò°ªÀ» ¹İÈ¯
+    printf("¹®ÀÚ : ");
     scanf("%c", &ch);
 
-    printf("ì •ìˆ˜ : ");
+    printf("Á¤¼ö : ");
     scanf("%d", &num);
 
-    printf("ì‹¤ìˆ˜ : ");
+    printf("½Ç¼ö : ");
     scanf("%lf", &fnum);
 
     printf("%c %d %lf \n", ch, num, fnum);
