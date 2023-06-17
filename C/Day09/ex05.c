@@ -8,6 +8,7 @@ int main(void) {
 
     return 0;
 }
+
 // 반환타입이 없는 함수
 // 입력받은 문자 ch 를 count 번 출력하는 함수
 void print_char(char ch, int count) {
